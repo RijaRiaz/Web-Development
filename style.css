@@ -1,0 +1,254 @@
+p {
+        color: brown;
+        font-size: 200%;
+     }
+#heading {
+    color: aquamarine;
+    font-size: 300%;
+}
+.para {
+    color: cadetblue;
+    font-size: 200%;
+}
+.div1 {
+    color: crimson;
+    background-color: darkgrey;
+    height: auto;
+    width: auto;
+
+    padding: 15px 5px 15px 100px;
+    
+    border: 16px #0cf2a1 ridge;
+    outline-style: double;
+    outline-color: #279ce5;
+    outline-width: thick;
+    margin: 20px;
+    
+    background-image: url(Images/cage.jpg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: 100% 100%;
+}
+.div2 {
+    color: black;
+    background-color: #e5eae8;
+    height: 200px;
+    width: 100px;
+    padding: 20px;
+    border-width: 20px 20px 20px 20px;
+    border-color: darkgoldenrod;
+    border-style: groove;
+    border-radius: 800px;
+    margin: 20px 10px 20px 10px;
+
+    background-image: url(Images/cage.jpg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: 100px 100px;
+    background-position: top;
+}
+.div3 {
+    color: #279ce5;
+    background-color: #bcd2e0;
+    height: auto;
+    width: auto;
+    padding: 10px 15px 10px 30x;
+    margin: 30px;
+   
+}
+.span1{
+    color: blueviolet;
+    background-color: cornsilk;
+
+}
+.div4 {
+    color: black;
+    background-color: #e5eae8;
+    height: 200%;
+    width: 300%;
+    padding: 20px;
+    border-width: 20px 20px 20px 20px;
+    border-color: darkgoldenrod;
+    border-style: groove;
+    margin: 20px 10px 20px 10px;
+    font-family: sans-serif;
+}
+.div5 {
+    color: black;
+    background-color: #e5eae8;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    border-width: 20px 20px 20px 20px;
+    border-color: darkgoldenrod;
+    border-style: groove;
+    margin: 20px 10px 20px 10px;
+    text-decoration: underline;
+    font-weight: 200;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 5px;
+    text-shadow: 10px 10px blue;
+    text-indent: 30px;
+}
+.div6 {
+    color: black;
+    background-color: #e5eae8;
+    height: 200%;
+    width: 100%;
+    padding: 20px;
+    border-width: 20px 20px 20px 20px;
+    border-color: darkgoldenrod;
+    border-style: groove;
+    margin: 20px 10px 20px 10px;
+    text-align: center;
+}
+.div7 {
+    color: black;
+    background-color: #e5eae8;
+    height: 150px;
+    width: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.div7:hover{
+    overflow: visible;
+}
+.img1 {
+    background: url(Images/cage.jpg) 200px 200px;
+    height: 100px;
+    width: 100px;
+}
+.img2 {
+    height: 100px;
+    width: 100px;
+    opacity: 0.5;
+}
+.img3{
+    height: 100px;
+    width: 100px;
+    opacity: 1;
+}
+ul.list1{
+    list-style: square;
+}
+ul.list2{
+    list-style-image: url(Images/cage.jpg);
+}
+ul.list3{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul.list3 li{
+    background-image: url(Images/gift.jpg);
+    background-repeat: no-repeat;
+    background-position: 10px center ;
+    padding-left: 10px;
+}
+.div8 {
+    color: black;
+    background-color: #e5eae8;
+    height: 150px;
+}
+div .div8 a:active {
+    background-color: brown;
+    font-size: 5em;
+}
+.div9 {
+    color: black;
+    background-color: #e5eae8;
+    height: 150px;
+    width: auto;
+}
+div .div9 a:visited{
+    color: black;
+}
+a:hover{
+    font-size: 3em;
+}
+a:link{
+    color: darkgoldenrod;
+}
+.div10{
+    height: 300px;
+    width: 600px;
+    background: linear-gradient(green, orange, pink);
+}
+.div11{
+    height: 300px;
+    width: 600px;
+    background: radial-gradient(green, orange, pink);
+}
+.div12{
+    height: 300px;
+    width: 600px;
+    background: radial-gradient(green 20%, orange 30%, pink 50%);
+}
+.div13{
+    height: 300px;
+    width: 600px;
+    background: radial-gradient(circle, green 20%, orange 30%, pink 50%);
+}
+.div14{
+    color: black;
+    background-color: #e5eae8;
+    height: 150px;
+    width: 200px;
+    transform: rotate(30deg);
+    transform: translate(40px, 30px);
+    transform: scale(2,2);
+    transform: skewX(10deg);
+    transform: skewY(10deg);
+}
+.div15{
+    color: black;
+    background-color: #e5eae8;
+    height: 150px;
+    width: 200px;
+    transform: rotateX(50deg);
+    transform: rotateY(50deg);
+    transition: width 1s;
+}
+.div15:hover{
+    width: 300px;
+}
+.div16{
+    color: black;
+    background-color: #e5eae8;
+    height: 150px;
+    width: 200px;
+    transition: width 1s, height 1s;
+}
+.div16:hover{
+    width: 300px;
+    height: 200px;
+    transform: rotateX(40deg);
+}
+.div17{
+    color: black;
+    background-color: #e5eae8;
+    height: 150px;
+    width: 200px;
+    -webkit-animation: myanimation 5s;
+}
+@-webkit-keyframes myanimation{
+    from{background: magenta;}
+    to{background: mediumblue;}
+}
+.div18{
+    color: black;
+    background-color: #e5eae8;
+    height: 150px;
+    width: 200px;
+    position: relative;
+    -webkit-animation: myanimation1 5s;
+}
+@-webkit-keyframes myanimation1{
+    0% {background: red; left:0px; top:0px}
+   25% {background: blueviolet; left:200px; top:0px}
+   50% {background: mediumseagreen; left:200px; top:200px}
+   75% {background: bisque; left:0px; top:200px}
+   100% {background: palevioletred; left:0px; top:0px}
+}
