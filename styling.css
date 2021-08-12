@@ -1,0 +1,168 @@
+#container{
+    width: 1200px;
+    margin: 0 auto;
+}
+#tag{
+    font-size: 20px;
+    float: left;
+}
+h1 a{
+    text-decoration: none;
+    color: purple;
+}
+#searchbox{
+    float: right;
+    background: linear-gradient(#b8ddd3,#efb7f7);
+    height: 50px;
+    width: 400px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+}
+.text{
+    float: left;
+    padding: 4px;
+    width: 200px;
+    font-size: 15px;
+    color: coral;
+    margin-top: 13px;
+    background: white url(Images/search.png) right center no-repeat;
+}
+.button{
+    float: right;
+    font-weight: bold;
+    color: white;
+    background: purple;
+    height: 30px;
+    margin-top: 10px;
+}
+.header{
+    padding: 8px 0px;
+}
+.clear{
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+#menu ul li{
+    float: left;
+    padding: 0px 30px;
+    height: 30px;
+    border-right: 1px solid #9933dd;
+}
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #9933dd;
+    line-height: 30px;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+}
+#menu{
+    height: 80px;
+    background: linear-gradient(#f7eaa0, #f7e26f);
+    padding: 12px 0px;
+}
+#menu ul li:last-child{
+    border-right: none;
+}
+#menu ul li a:hover , #menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: purple;
+}
+#introduction{
+    height: 300px;
+    background: linear-gradient(#b8ddd3,#efb7f7);
+}
+.intro1{
+    font-size: 40px;
+    color: #812fc4;
+    padding: 60px 0px 0px 20px;
+    font-weight: bold;
+}
+.intro2{
+    font-size: 22px;
+    color: #812fc4;
+    padding: 0px 10px 0px 20px;
+    text-align: justify;
+}
+#leftsidebar{
+    width: 500px;
+    height: 500px;
+    border: 1px solid #ad91ea;
+    float: left;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+#rightsidebar{
+    width: 500px;
+    height: 500px;
+    border: 1px solid #ad91ea;
+    float: right;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+#leftsidebar ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #3f53a3;
+}
+.s1{
+    color: purple;
+    font-size: 35px;
+}
+#leftsidebar ul li a:hover, #leftsidebar ul li a.active{
+    text-decoration: none;
+    font-weight: bold;
+    color: #0e6ba0;
+    font-size: 30px;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+}
+#leftsidebar ul li{
+    padding-bottom: 10px;
+    list-style-image: url(Images/arrow.png);
+    padding-left: 30px;
+}
+#rightsidebar ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #3f53a3;
+}
+#rightsidebar ul li a:hover, #leftsidebar ul li a.active{
+    text-decoration: none;
+    font-weight: bold;
+    color: #0e6ba0;
+    font-size: 26px;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+}
+#rightsidebar ul li{
+    padding-bottom: 10px;
+}
+#rightsidebar ul li{
+    padding-bottom: 10px;
+    list-style-image: url(Images/tick.png);
+    padding-left: 30px;
+}
+.footer{
+    height: 100px;
+    background-color: #f7e26f;
+}
+.ftext{
+    color: black;
+    font-size: 18px;
+    padding-left: 35px;
+    padding-top: 35px;
+}
